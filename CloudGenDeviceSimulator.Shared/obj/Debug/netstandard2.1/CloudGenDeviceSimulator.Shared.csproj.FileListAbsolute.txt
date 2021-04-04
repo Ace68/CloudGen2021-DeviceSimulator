@@ -1,0 +1,9 @@
+E:\Sviluppo\GlobalAzure2021\CloudGen2021-DeviceSimulator\CloudGenDeviceSimulator.Shared\bin\Debug\netstandard2.1\CloudGenDeviceSimulator.Shared.deps.json
+E:\Sviluppo\GlobalAzure2021\CloudGen2021-DeviceSimulator\CloudGenDeviceSimulator.Shared\bin\Debug\netstandard2.1\CloudGenDeviceSimulator.Shared.dll
+E:\Sviluppo\GlobalAzure2021\CloudGen2021-DeviceSimulator\CloudGenDeviceSimulator.Shared\bin\Debug\netstandard2.1\CloudGenDeviceSimulator.Shared.pdb
+E:\Sviluppo\GlobalAzure2021\CloudGen2021-DeviceSimulator\CloudGenDeviceSimulator.Shared\obj\Debug\netstandard2.1\CloudGenDeviceSimulator.Shared.csprojAssemblyReference.cache
+E:\Sviluppo\GlobalAzure2021\CloudGen2021-DeviceSimulator\CloudGenDeviceSimulator.Shared\obj\Debug\netstandard2.1\CloudGenDeviceSimulator.Shared.AssemblyInfoInputs.cache
+E:\Sviluppo\GlobalAzure2021\CloudGen2021-DeviceSimulator\CloudGenDeviceSimulator.Shared\obj\Debug\netstandard2.1\CloudGenDeviceSimulator.Shared.AssemblyInfo.cs
+E:\Sviluppo\GlobalAzure2021\CloudGen2021-DeviceSimulator\CloudGenDeviceSimulator.Shared\obj\Debug\netstandard2.1\CloudGenDeviceSimulator.Shared.csproj.CoreCompileInputs.cache
+E:\Sviluppo\GlobalAzure2021\CloudGen2021-DeviceSimulator\CloudGenDeviceSimulator.Shared\obj\Debug\netstandard2.1\CloudGenDeviceSimulator.Shared.dll
+E:\Sviluppo\GlobalAzure2021\CloudGen2021-DeviceSimulator\CloudGenDeviceSimulator.Shared\obj\Debug\netstandard2.1\CloudGenDeviceSimulator.Shared.pdb

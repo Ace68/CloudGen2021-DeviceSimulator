@@ -1,0 +1,12 @@
+E:\Sviluppo\GlobalAzure2021\CloudGen2021-DeviceSimulator\CloudGenDeviceSimulator.ReadModel.MongoDb\bin\Debug\netstandard2.1\snappy32.dll
+E:\Sviluppo\GlobalAzure2021\CloudGen2021-DeviceSimulator\CloudGenDeviceSimulator.ReadModel.MongoDb\bin\Debug\netstandard2.1\snappy64.dll
+E:\Sviluppo\GlobalAzure2021\CloudGen2021-DeviceSimulator\CloudGenDeviceSimulator.ReadModel.MongoDb\bin\Debug\netstandard2.1\libzstd.dll
+E:\Sviluppo\GlobalAzure2021\CloudGen2021-DeviceSimulator\CloudGenDeviceSimulator.ReadModel.MongoDb\bin\Debug\netstandard2.1\CloudGenDeviceSimulator.ReadModel.MongoDb.deps.json
+E:\Sviluppo\GlobalAzure2021\CloudGen2021-DeviceSimulator\CloudGenDeviceSimulator.ReadModel.MongoDb\bin\Debug\netstandard2.1\CloudGenDeviceSimulator.ReadModel.MongoDb.dll
+E:\Sviluppo\GlobalAzure2021\CloudGen2021-DeviceSimulator\CloudGenDeviceSimulator.ReadModel.MongoDb\bin\Debug\netstandard2.1\CloudGenDeviceSimulator.ReadModel.MongoDb.pdb
+E:\Sviluppo\GlobalAzure2021\CloudGen2021-DeviceSimulator\CloudGenDeviceSimulator.ReadModel.MongoDb\obj\Debug\netstandard2.1\CloudGenDeviceSimulator.ReadModel.MongoDb.csprojAssemblyReference.cache
+E:\Sviluppo\GlobalAzure2021\CloudGen2021-DeviceSimulator\CloudGenDeviceSimulator.ReadModel.MongoDb\obj\Debug\netstandard2.1\CloudGenDeviceSimulator.ReadModel.MongoDb.AssemblyInfoInputs.cache
+E:\Sviluppo\GlobalAzure2021\CloudGen2021-DeviceSimulator\CloudGenDeviceSimulator.ReadModel.MongoDb\obj\Debug\netstandard2.1\CloudGenDeviceSimulator.ReadModel.MongoDb.AssemblyInfo.cs
+E:\Sviluppo\GlobalAzure2021\CloudGen2021-DeviceSimulator\CloudGenDeviceSimulator.ReadModel.MongoDb\obj\Debug\netstandard2.1\CloudGenDeviceSimulator.ReadModel.MongoDb.csproj.CoreCompileInputs.cache
+E:\Sviluppo\GlobalAzure2021\CloudGen2021-DeviceSimulator\CloudGenDeviceSimulator.ReadModel.MongoDb\obj\Debug\netstandard2.1\CloudGenDeviceSimulator.ReadModel.MongoDb.dll
+E:\Sviluppo\GlobalAzure2021\CloudGen2021-DeviceSimulator\CloudGenDeviceSimulator.ReadModel.MongoDb\obj\Debug\netstandard2.1\CloudGenDeviceSimulator.ReadModel.MongoDb.pdb

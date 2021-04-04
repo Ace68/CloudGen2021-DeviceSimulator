@@ -1,0 +1,37 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.1/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.1": {},
+    ".NETStandard,Version=v2.1/": {
+      "CloudGenDeviceSimulator.ReadModel/1.0.0": {
+        "dependencies": {
+          "CloudGenDeviceSimulator.Shared": "1.0.0"
+        },
+        "runtime": {
+          "CloudGenDeviceSimulator.ReadModel.dll": {}
+        }
+      },
+      "CloudGenDeviceSimulator.Shared/1.0.0": {
+        "runtime": {
+          "CloudGenDeviceSimulator.Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CloudGenDeviceSimulator.ReadModel/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CloudGenDeviceSimulator.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

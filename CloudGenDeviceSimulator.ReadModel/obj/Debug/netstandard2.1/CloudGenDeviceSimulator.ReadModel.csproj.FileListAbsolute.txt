@@ -1,0 +1,12 @@
+E:\Sviluppo\GlobalAzure2021\CloudGen2021-DeviceSimulator\CloudGenDeviceSimulator.ReadModel\bin\Debug\netstandard2.1\CloudGenDeviceSimulator.ReadModel.deps.json
+E:\Sviluppo\GlobalAzure2021\CloudGen2021-DeviceSimulator\CloudGenDeviceSimulator.ReadModel\bin\Debug\netstandard2.1\CloudGenDeviceSimulator.ReadModel.dll
+E:\Sviluppo\GlobalAzure2021\CloudGen2021-DeviceSimulator\CloudGenDeviceSimulator.ReadModel\bin\Debug\netstandard2.1\CloudGenDeviceSimulator.ReadModel.pdb
+E:\Sviluppo\GlobalAzure2021\CloudGen2021-DeviceSimulator\CloudGenDeviceSimulator.ReadModel\bin\Debug\netstandard2.1\CloudGenDeviceSimulator.Shared.dll
+E:\Sviluppo\GlobalAzure2021\CloudGen2021-DeviceSimulator\CloudGenDeviceSimulator.ReadModel\bin\Debug\netstandard2.1\CloudGenDeviceSimulator.Shared.pdb
+E:\Sviluppo\GlobalAzure2021\CloudGen2021-DeviceSimulator\CloudGenDeviceSimulator.ReadModel\obj\Debug\netstandard2.1\CloudGenDeviceSimulator.ReadModel.csprojAssemblyReference.cache
+E:\Sviluppo\GlobalAzure2021\CloudGen2021-DeviceSimulator\CloudGenDeviceSimulator.ReadModel\obj\Debug\netstandard2.1\CloudGenDeviceSimulator.ReadModel.AssemblyInfoInputs.cache
+E:\Sviluppo\GlobalAzure2021\CloudGen2021-DeviceSimulator\CloudGenDeviceSimulator.ReadModel\obj\Debug\netstandard2.1\CloudGenDeviceSimulator.ReadModel.AssemblyInfo.cs
+E:\Sviluppo\GlobalAzure2021\CloudGen2021-DeviceSimulator\CloudGenDeviceSimulator.ReadModel\obj\Debug\netstandard2.1\CloudGenDeviceSimulator.ReadModel.csproj.CoreCompileInputs.cache
+E:\Sviluppo\GlobalAzure2021\CloudGen2021-DeviceSimulator\CloudGenDeviceSimulator.ReadModel\obj\Debug\netstandard2.1\CloudGenDeviceSimulator.ReadModel.csproj.CopyComplete
+E:\Sviluppo\GlobalAzure2021\CloudGen2021-DeviceSimulator\CloudGenDeviceSimulator.ReadModel\obj\Debug\netstandard2.1\CloudGenDeviceSimulator.ReadModel.dll
+E:\Sviluppo\GlobalAzure2021\CloudGen2021-DeviceSimulator\CloudGenDeviceSimulator.ReadModel\obj\Debug\netstandard2.1\CloudGenDeviceSimulator.ReadModel.pdb

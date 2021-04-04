@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "99 Presentation", "99 Presentation", "{58A65976-3973-46EC-83FC-657965E86988}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloudGenDeviceSimulator", "CloudGenDeviceSimulator\CloudGenDeviceSimulator.csproj", "{EB0836A2-DAB8-4931-BFDE-F6E64E379608}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "30 Shared", "30 Shared", "{719B598B-370A-4A60-9A63-95C8A7BC89DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudGenDeviceSimulator.Shared", "CloudGenDeviceSimulator.Shared\CloudGenDeviceSimulator.Shared.csproj", "{A836EDD7-62AE-42EB-BA7D-25E8B8D07904}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "50 ApplicationServices", "50 ApplicationServices", "{2E9E556B-C13D-4941-8034-2E7411441AB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudGenDeviceSimulator.ApplicationServices", "CloudGenDeviceSimulator.ApplicationServices\CloudGenDeviceSimulator.ApplicationServices.csproj", "{B58A06FB-AA90-4FE1-9D54-DAC188AA1006}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "40 ReadModel", "40 ReadModel", "{1566B372-85B1-4A4E-BA53-C88621403D90}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloudGenDeviceSimulator.ReadModel", "CloudGenDeviceSimulator.ReadModel\CloudGenDeviceSimulator.ReadModel.csproj", "{A1B6B0C4-23E6-4E97-BD24-69279C2D67FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "20 Infrastructures", "20 Infrastructures", "{9561872A-694A-4449-B55B-60F47275EE27}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MongoDb", "MongoDb", "{4E5B70C6-D776-4423-B924-214AAC5557F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudGenDeviceSimulator.ReadModel.MongoDb", "CloudGenDeviceSimulator.ReadModel.MongoDb\CloudGenDeviceSimulator.ReadModel.MongoDb.csproj", "{F7195651-5599-45CB-82CE-CC4371449704}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB0836A2-DAB8-4931-BFDE-F6E64E379608}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB0836A2-DAB8-4931-BFDE-F6E64E379608}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB0836A2-DAB8-4931-BFDE-F6E64E379608}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB0836A2-DAB8-4931-BFDE-F6E64E379608}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A836EDD7-62AE-42EB-BA7D-25E8B8D07904}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A836EDD7-62AE-42EB-BA7D-25E8B8D07904}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A836EDD7-62AE-42EB-BA7D-25E8B8D07904}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A836EDD7-62AE-42EB-BA7D-25E8B8D07904}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B58A06FB-AA90-4FE1-9D54-DAC188AA1006}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B58A06FB-AA90-4FE1-9D54-DAC188AA1006}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B58A06FB-AA90-4FE1-9D54-DAC188AA1006}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B58A06FB-AA90-4FE1-9D54-DAC188AA1006}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1B6B0C4-23E6-4E97-BD24-69279C2D67FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1B6B0C4-23E6-4E97-BD24-69279C2D67FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1B6B0C4-23E6-4E97-BD24-69279C2D67FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1B6B0C4-23E6-4E97-BD24-69279C2D67FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7195651-5599-45CB-82CE-CC4371449704}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7195651-5599-45CB-82CE-CC4371449704}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7195651-5599-45CB-82CE-CC4371449704}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7195651-5599-45CB-82CE-CC4371449704}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EB0836A2-DAB8-4931-BFDE-F6E64E379608} = {58A65976-3973-46EC-83FC-657965E86988}
+		{A836EDD7-62AE-42EB-BA7D-25E8B8D07904} = {719B598B-370A-4A60-9A63-95C8A7BC89DC}
+		{B58A06FB-AA90-4FE1-9D54-DAC188AA1006} = {2E9E556B-C13D-4941-8034-2E7411441AB3}
+		{A1B6B0C4-23E6-4E97-BD24-69279C2D67FD} = {1566B372-85B1-4A4E-BA53-C88621403D90}
+		{4E5B70C6-D776-4423-B924-214AAC5557F6} = {9561872A-694A-4449-B55B-60F47275EE27}
+		{F7195651-5599-45CB-82CE-CC4371449704} = {4E5B70C6-D776-4423-B924-214AAC5557F6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DC3A41CD-DCC5-47A8-995E-D98870F079C6}
+	EndGlobalSection
+EndGlobal
