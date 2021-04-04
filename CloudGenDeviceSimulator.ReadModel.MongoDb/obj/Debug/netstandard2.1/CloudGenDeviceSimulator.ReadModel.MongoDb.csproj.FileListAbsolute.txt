@@ -10,3 +10,8 @@ E:\Sviluppo\GlobalAzure2021\CloudGen2021-DeviceSimulator\CloudGenDeviceSimulator
 E:\Sviluppo\GlobalAzure2021\CloudGen2021-DeviceSimulator\CloudGenDeviceSimulator.ReadModel.MongoDb\obj\Debug\netstandard2.1\CloudGenDeviceSimulator.ReadModel.MongoDb.csproj.CoreCompileInputs.cache
 E:\Sviluppo\GlobalAzure2021\CloudGen2021-DeviceSimulator\CloudGenDeviceSimulator.ReadModel.MongoDb\obj\Debug\netstandard2.1\CloudGenDeviceSimulator.ReadModel.MongoDb.dll
 E:\Sviluppo\GlobalAzure2021\CloudGen2021-DeviceSimulator\CloudGenDeviceSimulator.ReadModel.MongoDb\obj\Debug\netstandard2.1\CloudGenDeviceSimulator.ReadModel.MongoDb.pdb
+E:\Sviluppo\GlobalAzure2021\CloudGen2021-DeviceSimulator\CloudGenDeviceSimulator.ReadModel.MongoDb\bin\Debug\netstandard2.1\CloudGenDeviceSimulator.ReadModel.dll
+E:\Sviluppo\GlobalAzure2021\CloudGen2021-DeviceSimulator\CloudGenDeviceSimulator.ReadModel.MongoDb\bin\Debug\netstandard2.1\CloudGenDeviceSimulator.Shared.dll
+E:\Sviluppo\GlobalAzure2021\CloudGen2021-DeviceSimulator\CloudGenDeviceSimulator.ReadModel.MongoDb\bin\Debug\netstandard2.1\CloudGenDeviceSimulator.ReadModel.pdb
+E:\Sviluppo\GlobalAzure2021\CloudGen2021-DeviceSimulator\CloudGenDeviceSimulator.ReadModel.MongoDb\bin\Debug\netstandard2.1\CloudGenDeviceSimulator.Shared.pdb
+E:\Sviluppo\GlobalAzure2021\CloudGen2021-DeviceSimulator\CloudGenDeviceSimulator.ReadModel.MongoDb\obj\Debug\netstandard2.1\CloudGenDeviceSimulator.ReadModel.MongoDb.csproj.CopyComplete
