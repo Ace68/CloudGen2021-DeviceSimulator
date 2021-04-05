@@ -18,6 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CloudGenDeviceSimulator.ApplicationServices\CloudGenDeviceSimulator.ApplicationServices.csproj" />
     <ProjectReference Include="..\CloudGenDeviceSimulator.ReadModel.MongoDb\CloudGenDeviceSimulator.ReadModel.MongoDb.csproj" />
     <ProjectReference Include="..\CloudGenDeviceSimulator.Shared\CloudGenDeviceSimulator.Shared.csproj" />
   </ItemGroup>

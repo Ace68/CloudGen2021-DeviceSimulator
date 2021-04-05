@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ouZeCWcK7OG6DagF8jmQw14g+VEv5g3lwv9EjbvDkHiFna5KbhYPLUpURUPQs6Nvq2nrUdJvc8IBI5eZP+Yadw==",
+  "dgSpecHash": "bR7TCcQdvUMeM+mlLaAOy60q8cymoRMrywOeHDa4kjKAj715dgchgUFoC2tDdY3tZpu55quyzviFu2EmcxMmeA==",
   "success": true,
-  "projectFilePath": "E:\\Sviluppo\\GlobalAzure2021\\CloudGen2021-DeviceSimulator\\CloudGenDeviceSimulator\\CloudGenDeviceSimulator.csproj",
+  "projectFilePath": "e:\\Sviluppo\\GlobalAzure2021\\CloudGen2021-DeviceSimulator\\CloudGenDeviceSimulator\\CloudGenDeviceSimulator.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alberto\\.nuget\\packages\\dnsclient\\1.3.1\\dnsclient.1.3.1.nupkg.sha512",
+    "C:\\Users\\Alberto\\.nuget\\packages\\foursolid.athena\\3.2.0\\foursolid.athena.3.2.0.nupkg.sha512",
+    "C:\\Users\\Alberto\\.nuget\\packages\\foursolid.common\\1.1.0\\foursolid.common.1.1.0.nupkg.sha512",
     "C:\\Users\\Alberto\\.nuget\\packages\\microsoft.extensions.configuration\\5.0.0\\microsoft.extensions.configuration.5.0.0.nupkg.sha512",
     "C:\\Users\\Alberto\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\Alberto\\.nuget\\packages\\microsoft.extensions.configuration.binder\\2.0.0\\microsoft.extensions.configuration.binder.2.0.0.nupkg.sha512",

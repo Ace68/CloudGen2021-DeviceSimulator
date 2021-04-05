@@ -5,8 +5,17 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Concretes\" />
     <Folder Include="Orchestrator\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CloudGenDeviceSimulator.Messages\CloudGenDeviceSimulator.Messages.csproj" />
+    <ProjectReference Include="..\CloudGenDeviceSimulator.ReadModel\CloudGenDeviceSimulator.ReadModel.csproj" />
+    <ProjectReference Include="..\CloudGenDeviceSimulator.Shared\CloudGenDeviceSimulator.Shared.csproj" />
   </ItemGroup>
 
 </Project>

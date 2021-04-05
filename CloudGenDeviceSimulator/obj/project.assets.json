@@ -11,6 +11,29 @@
           "lib/netstandard2.1/DnsClient.dll": {}
         }
       },
+      "FourSolid.Athena/3.2.0": {
+        "type": "package",
+        "dependencies": {
+          "FourSolid.Common": "1.1.0",
+          "Microsoft.Extensions.DependencyInjection": "5.0.1",
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "compile": {
+          "lib/netstandard2.1/FourSolid.Athena.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/FourSolid.Athena.dll": {}
+        }
+      },
+      "FourSolid.Common/1.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/FourSolid.Common.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/FourSolid.Common.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/5.0.0": {
         "type": "package",
         "dependencies": {
@@ -1588,6 +1611,36 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
+      "CloudGenDeviceSimulator.ApplicationServices/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "CloudGenDeviceSimulator.Messages": "1.0.0",
+          "CloudGenDeviceSimulator.ReadModel": "1.0.0",
+          "CloudGenDeviceSimulator.Shared": "1.0.0",
+          "Microsoft.Extensions.Logging": "5.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CloudGenDeviceSimulator.ApplicationServices.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CloudGenDeviceSimulator.ApplicationServices.dll": {}
+        }
+      },
+      "CloudGenDeviceSimulator.Messages/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "CloudGenDeviceSimulator.Shared": "1.0.0",
+          "FourSolid.Athena": "3.2.0"
+        },
+        "compile": {
+          "bin/placeholder/CloudGenDeviceSimulator.Messages.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CloudGenDeviceSimulator.Messages.dll": {}
+        }
+      },
       "CloudGenDeviceSimulator.ReadModel/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
@@ -1651,6 +1704,28 @@
         "lib/netstandard2.0/DnsClient.xml",
         "lib/netstandard2.1/DnsClient.dll",
         "lib/netstandard2.1/DnsClient.xml"
+      ]
+    },
+    "FourSolid.Athena/3.2.0": {
+      "sha512": "IGoXa1yvlcpM+mLjva12uxfaoFt3e1beVd8LWULchpnNfO0gDqW0QHbHHMczhXB9A8Fx8Qe0CIcIWC2LBRj13w==",
+      "type": "package",
+      "path": "foursolid.athena/3.2.0",
+      "files": [
+        ".nupkg.metadata",
+        "foursolid.athena.3.2.0.nupkg.sha512",
+        "foursolid.athena.nuspec",
+        "lib/netstandard2.1/FourSolid.Athena.dll"
+      ]
+    },
+    "FourSolid.Common/1.1.0": {
+      "sha512": "U8Ks6wToOEoGhLEHXHlPBoPMZwyYrho2Lmy77JuQsYIPgTAXfT3t8q8lhc0G5ZBQOMNrZUo2XGcv+D73cKcucQ==",
+      "type": "package",
+      "path": "foursolid.common/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        "foursolid.common.1.1.0.nupkg.sha512",
+        "foursolid.common.nuspec",
+        "lib/netstandard2.0/FourSolid.Common.dll"
       ]
     },
     "Microsoft.Extensions.Configuration/5.0.0": {
@@ -5519,6 +5594,16 @@
         "system.xml.xdocument.nuspec"
       ]
     },
+    "CloudGenDeviceSimulator.ApplicationServices/1.0.0": {
+      "type": "project",
+      "path": "../CloudGenDeviceSimulator.ApplicationServices/CloudGenDeviceSimulator.ApplicationServices.csproj",
+      "msbuildProject": "../CloudGenDeviceSimulator.ApplicationServices/CloudGenDeviceSimulator.ApplicationServices.csproj"
+    },
+    "CloudGenDeviceSimulator.Messages/1.0.0": {
+      "type": "project",
+      "path": "../CloudGenDeviceSimulator.Messages/CloudGenDeviceSimulator.Messages.csproj",
+      "msbuildProject": "../CloudGenDeviceSimulator.Messages/CloudGenDeviceSimulator.Messages.csproj"
+    },
     "CloudGenDeviceSimulator.ReadModel/1.0.0": {
       "type": "project",
       "path": "../CloudGenDeviceSimulator.ReadModel/CloudGenDeviceSimulator.ReadModel.csproj",
@@ -5537,6 +5622,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "CloudGenDeviceSimulator.ApplicationServices >= 1.0.0",
       "CloudGenDeviceSimulator.ReadModel.MongoDb >= 1.0.0",
       "CloudGenDeviceSimulator.Shared >= 1.0.0",
       "Microsoft.Extensions.Configuration >= 5.0.0",
@@ -5559,11 +5645,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Sviluppo\\GlobalAzure2021\\CloudGen2021-DeviceSimulator\\CloudGenDeviceSimulator\\CloudGenDeviceSimulator.csproj",
+      "projectUniqueName": "e:\\Sviluppo\\GlobalAzure2021\\CloudGen2021-DeviceSimulator\\CloudGenDeviceSimulator\\CloudGenDeviceSimulator.csproj",
       "projectName": "CloudGenDeviceSimulator",
-      "projectPath": "E:\\Sviluppo\\GlobalAzure2021\\CloudGen2021-DeviceSimulator\\CloudGenDeviceSimulator\\CloudGenDeviceSimulator.csproj",
+      "projectPath": "e:\\Sviluppo\\GlobalAzure2021\\CloudGen2021-DeviceSimulator\\CloudGenDeviceSimulator\\CloudGenDeviceSimulator.csproj",
       "packagesPath": "C:\\Users\\Alberto\\.nuget\\packages\\",
-      "outputPath": "E:\\Sviluppo\\GlobalAzure2021\\CloudGen2021-DeviceSimulator\\CloudGenDeviceSimulator\\obj\\",
+      "outputPath": "e:\\Sviluppo\\GlobalAzure2021\\CloudGen2021-DeviceSimulator\\CloudGenDeviceSimulator\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -5589,11 +5675,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "E:\\Sviluppo\\GlobalAzure2021\\CloudGen2021-DeviceSimulator\\CloudGenDeviceSimulator.ReadModel.MongoDb\\CloudGenDeviceSimulator.ReadModel.MongoDb.csproj": {
-              "projectPath": "E:\\Sviluppo\\GlobalAzure2021\\CloudGen2021-DeviceSimulator\\CloudGenDeviceSimulator.ReadModel.MongoDb\\CloudGenDeviceSimulator.ReadModel.MongoDb.csproj"
+            "e:\\Sviluppo\\GlobalAzure2021\\CloudGen2021-DeviceSimulator\\CloudGenDeviceSimulator.ApplicationServices\\CloudGenDeviceSimulator.ApplicationServices.csproj": {
+              "projectPath": "e:\\Sviluppo\\GlobalAzure2021\\CloudGen2021-DeviceSimulator\\CloudGenDeviceSimulator.ApplicationServices\\CloudGenDeviceSimulator.ApplicationServices.csproj"
             },
-            "E:\\Sviluppo\\GlobalAzure2021\\CloudGen2021-DeviceSimulator\\CloudGenDeviceSimulator.Shared\\CloudGenDeviceSimulator.Shared.csproj": {
-              "projectPath": "E:\\Sviluppo\\GlobalAzure2021\\CloudGen2021-DeviceSimulator\\CloudGenDeviceSimulator.Shared\\CloudGenDeviceSimulator.Shared.csproj"
+            "e:\\Sviluppo\\GlobalAzure2021\\CloudGen2021-DeviceSimulator\\CloudGenDeviceSimulator.ReadModel.MongoDb\\CloudGenDeviceSimulator.ReadModel.MongoDb.csproj": {
+              "projectPath": "e:\\Sviluppo\\GlobalAzure2021\\CloudGen2021-DeviceSimulator\\CloudGenDeviceSimulator.ReadModel.MongoDb\\CloudGenDeviceSimulator.ReadModel.MongoDb.csproj"
+            },
+            "e:\\Sviluppo\\GlobalAzure2021\\CloudGen2021-DeviceSimulator\\CloudGenDeviceSimulator.Shared\\CloudGenDeviceSimulator.Shared.csproj": {
+              "projectPath": "e:\\Sviluppo\\GlobalAzure2021\\CloudGen2021-DeviceSimulator\\CloudGenDeviceSimulator.Shared\\CloudGenDeviceSimulator.Shared.csproj"
             }
           }
         }

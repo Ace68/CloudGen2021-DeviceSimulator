@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Sviluppo\\GlobalAzure2021\\CloudGen2021-DeviceSimulator\\CloudGenDeviceSimulator.ReadModel.MongoDb\\CloudGenDeviceSimulator.ReadModel.MongoDb.csproj": {}
+    "e:\\Sviluppo\\GlobalAzure2021\\CloudGen2021-DeviceSimulator\\CloudGenDeviceSimulator.ReadModel.MongoDb\\CloudGenDeviceSimulator.ReadModel.MongoDb.csproj": {}
   },
   "projects": {
-    "E:\\Sviluppo\\GlobalAzure2021\\CloudGen2021-DeviceSimulator\\CloudGenDeviceSimulator.ReadModel.MongoDb\\CloudGenDeviceSimulator.ReadModel.MongoDb.csproj": {
+    "e:\\Sviluppo\\GlobalAzure2021\\CloudGen2021-DeviceSimulator\\CloudGenDeviceSimulator.ReadModel.MongoDb\\CloudGenDeviceSimulator.ReadModel.MongoDb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Sviluppo\\GlobalAzure2021\\CloudGen2021-DeviceSimulator\\CloudGenDeviceSimulator.ReadModel.MongoDb\\CloudGenDeviceSimulator.ReadModel.MongoDb.csproj",
+        "projectUniqueName": "e:\\Sviluppo\\GlobalAzure2021\\CloudGen2021-DeviceSimulator\\CloudGenDeviceSimulator.ReadModel.MongoDb\\CloudGenDeviceSimulator.ReadModel.MongoDb.csproj",
         "projectName": "CloudGenDeviceSimulator.ReadModel.MongoDb",
-        "projectPath": "E:\\Sviluppo\\GlobalAzure2021\\CloudGen2021-DeviceSimulator\\CloudGenDeviceSimulator.ReadModel.MongoDb\\CloudGenDeviceSimulator.ReadModel.MongoDb.csproj",
+        "projectPath": "e:\\Sviluppo\\GlobalAzure2021\\CloudGen2021-DeviceSimulator\\CloudGenDeviceSimulator.ReadModel.MongoDb\\CloudGenDeviceSimulator.ReadModel.MongoDb.csproj",
         "packagesPath": "C:\\Users\\Alberto\\.nuget\\packages\\",
-        "outputPath": "E:\\Sviluppo\\GlobalAzure2021\\CloudGen2021-DeviceSimulator\\CloudGenDeviceSimulator.ReadModel.MongoDb\\obj\\",
+        "outputPath": "e:\\Sviluppo\\GlobalAzure2021\\CloudGen2021-DeviceSimulator\\CloudGenDeviceSimulator.ReadModel.MongoDb\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -37,8 +37,8 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "E:\\Sviluppo\\GlobalAzure2021\\CloudGen2021-DeviceSimulator\\CloudGenDeviceSimulator.ReadModel\\CloudGenDeviceSimulator.ReadModel.csproj": {
-                "projectPath": "E:\\Sviluppo\\GlobalAzure2021\\CloudGen2021-DeviceSimulator\\CloudGenDeviceSimulator.ReadModel\\CloudGenDeviceSimulator.ReadModel.csproj"
+              "e:\\Sviluppo\\GlobalAzure2021\\CloudGen2021-DeviceSimulator\\CloudGenDeviceSimulator.ReadModel\\CloudGenDeviceSimulator.ReadModel.csproj": {
+                "projectPath": "e:\\Sviluppo\\GlobalAzure2021\\CloudGen2021-DeviceSimulator\\CloudGenDeviceSimulator.ReadModel\\CloudGenDeviceSimulator.ReadModel.csproj"
               }
             }
           }
@@ -89,14 +89,14 @@
         }
       }
     },
-    "E:\\Sviluppo\\GlobalAzure2021\\CloudGen2021-DeviceSimulator\\CloudGenDeviceSimulator.ReadModel\\CloudGenDeviceSimulator.ReadModel.csproj": {
+    "e:\\Sviluppo\\GlobalAzure2021\\CloudGen2021-DeviceSimulator\\CloudGenDeviceSimulator.ReadModel\\CloudGenDeviceSimulator.ReadModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Sviluppo\\GlobalAzure2021\\CloudGen2021-DeviceSimulator\\CloudGenDeviceSimulator.ReadModel\\CloudGenDeviceSimulator.ReadModel.csproj",
+        "projectUniqueName": "e:\\Sviluppo\\GlobalAzure2021\\CloudGen2021-DeviceSimulator\\CloudGenDeviceSimulator.ReadModel\\CloudGenDeviceSimulator.ReadModel.csproj",
         "projectName": "CloudGenDeviceSimulator.ReadModel",
-        "projectPath": "E:\\Sviluppo\\GlobalAzure2021\\CloudGen2021-DeviceSimulator\\CloudGenDeviceSimulator.ReadModel\\CloudGenDeviceSimulator.ReadModel.csproj",
+        "projectPath": "e:\\Sviluppo\\GlobalAzure2021\\CloudGen2021-DeviceSimulator\\CloudGenDeviceSimulator.ReadModel\\CloudGenDeviceSimulator.ReadModel.csproj",
         "packagesPath": "C:\\Users\\Alberto\\.nuget\\packages\\",
-        "outputPath": "E:\\Sviluppo\\GlobalAzure2021\\CloudGen2021-DeviceSimulator\\CloudGenDeviceSimulator.ReadModel\\obj\\",
+        "outputPath": "e:\\Sviluppo\\GlobalAzure2021\\CloudGen2021-DeviceSimulator\\CloudGenDeviceSimulator.ReadModel\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -122,8 +122,8 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "E:\\Sviluppo\\GlobalAzure2021\\CloudGen2021-DeviceSimulator\\CloudGenDeviceSimulator.Shared\\CloudGenDeviceSimulator.Shared.csproj": {
-                "projectPath": "E:\\Sviluppo\\GlobalAzure2021\\CloudGen2021-DeviceSimulator\\CloudGenDeviceSimulator.Shared\\CloudGenDeviceSimulator.Shared.csproj"
+              "e:\\Sviluppo\\GlobalAzure2021\\CloudGen2021-DeviceSimulator\\CloudGenDeviceSimulator.Shared\\CloudGenDeviceSimulator.Shared.csproj": {
+                "projectPath": "e:\\Sviluppo\\GlobalAzure2021\\CloudGen2021-DeviceSimulator\\CloudGenDeviceSimulator.Shared\\CloudGenDeviceSimulator.Shared.csproj"
               }
             }
           }
@@ -156,14 +156,14 @@
         }
       }
     },
-    "E:\\Sviluppo\\GlobalAzure2021\\CloudGen2021-DeviceSimulator\\CloudGenDeviceSimulator.Shared\\CloudGenDeviceSimulator.Shared.csproj": {
+    "e:\\Sviluppo\\GlobalAzure2021\\CloudGen2021-DeviceSimulator\\CloudGenDeviceSimulator.Shared\\CloudGenDeviceSimulator.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Sviluppo\\GlobalAzure2021\\CloudGen2021-DeviceSimulator\\CloudGenDeviceSimulator.Shared\\CloudGenDeviceSimulator.Shared.csproj",
+        "projectUniqueName": "e:\\Sviluppo\\GlobalAzure2021\\CloudGen2021-DeviceSimulator\\CloudGenDeviceSimulator.Shared\\CloudGenDeviceSimulator.Shared.csproj",
         "projectName": "CloudGenDeviceSimulator.Shared",
-        "projectPath": "E:\\Sviluppo\\GlobalAzure2021\\CloudGen2021-DeviceSimulator\\CloudGenDeviceSimulator.Shared\\CloudGenDeviceSimulator.Shared.csproj",
+        "projectPath": "e:\\Sviluppo\\GlobalAzure2021\\CloudGen2021-DeviceSimulator\\CloudGenDeviceSimulator.Shared\\CloudGenDeviceSimulator.Shared.csproj",
         "packagesPath": "C:\\Users\\Alberto\\.nuget\\packages\\",
-        "outputPath": "E:\\Sviluppo\\GlobalAzure2021\\CloudGen2021-DeviceSimulator\\CloudGenDeviceSimulator.Shared\\obj\\",
+        "outputPath": "e:\\Sviluppo\\GlobalAzure2021\\CloudGen2021-DeviceSimulator\\CloudGenDeviceSimulator.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

@@ -1,4 +1,7 @@
 ﻿using System.IO;
+using CloudGenDeviceSimulator.ApplicationServices.Abstracts;
+using CloudGenDeviceSimulator.ApplicationServices.Concretes;
+using CloudGenDeviceSimulator.ReadModel.Abstracts;
 using CloudGenDeviceSimulator.ReadModel.MongoDb;
 using CloudGenDeviceSimulator.Shared.Abstracts;
 using CloudGenDeviceSimulator.Shared.Configuration;
@@ -41,6 +44,9 @@ namespace CloudGenDeviceSimulator
         {
             services.AddScoped<IStartup, Startup>();
             services.AddLogging();
+
+            services.AddScoped<IEventStoreServices, EventStoreServices>();
+            services.AddScoped<IThermometerServices, ThermometerServices>();
 
             var mongoDbParameters = new MongoDbParameters();
             _configuration.GetSection("CloudGen:MongoDbParameters").Bind(mongoDbParameters);
