@@ -2,7 +2,7 @@
 
 namespace CloudGenDeviceSimulator.Shared.Services
 {
-    public class CommonServices
+    public static class CommonServices
     {
         public static string GetErrorMessage(Exception ex) => CommonServices.GetMessageFromException(ex);
 
@@ -15,6 +15,12 @@ namespace CloudGenDeviceSimulator.Shared.Services
             while (ex.InnerException != null)
                 ex = ex.InnerException;
             return ex.Message;
+        }
+
+        public static Guid ToGuid(this string value)
+        {
+            Guid.TryParse(value, out var guidValue);
+            return guidValue;
         }
     }
 }

@@ -19,16 +19,19 @@ namespace CloudGenDeviceSimulator
     {
         private readonly IThermometerServices _thermometerServices;
         private readonly IEventStoreServices _eventStoreServices;
+        private readonly IDeviceServices _deviceServices;
         private readonly IPublish _publish;
         
         private readonly Timer _timer = new();
 
-        public Startup(IThermometerServices thermometerServices,
-            IEventStoreServices eventStoreServices,
+        public Startup(IEventStoreServices eventStoreServices,
+            IThermometerServices thermometerServices,
+            IDeviceServices deviceServices,
             IPublish publish)
         {
-            this._thermometerServices = thermometerServices;
             this._eventStoreServices = eventStoreServices;
+            this._thermometerServices = thermometerServices;
+            this._deviceServices = deviceServices;
             this._publish = publish;
         }
 
@@ -59,10 +62,16 @@ namespace CloudGenDeviceSimulator
 
         private async Task ReadAndPublishThermometerValuesAsync()
         {
-            var temperature = this._thermometerServices.ReadThermometerValues();
-            var thermometerValues = this._thermometerServices.MapToThermometerValuesUpdated(temperature);
+            var devices = await this._deviceServices.GetDevicesAsync();
 
-            await this.AppendValuesIntoEventStoreAsync(thermometerValues);
+            foreach (var device in devices)
+            {
+                var temperature = this._thermometerServices.ReadThermometerValues();
+                var thermometerValues = this._thermometerServices.MapToThermometerValuesUpdated(temperature, device);
+
+                await this.AppendValuesIntoEventStoreAsync(thermometerValues);
+            }
+            
             await this.PublishAsync<ThermometerEventStore>();
         }
 
@@ -99,7 +108,7 @@ namespace CloudGenDeviceSimulator
                     continue;
 
                 await this._publish.PublishDomainEventAsync(eventToDispatch);
-                await this._eventStoreServices.SetEventToDispatched<T>(new Shared.CustomTypes.EventId(domainEvent.EventId));
+                await this._eventStoreServices.SetEventToDispatched<T>(new EventId(domainEvent.EventId));
             }
             Console.WriteLine($"Events {nameof(T)} Dispatched");
         }

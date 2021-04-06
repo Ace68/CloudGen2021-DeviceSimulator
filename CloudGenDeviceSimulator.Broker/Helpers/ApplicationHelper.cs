@@ -13,6 +13,7 @@ namespace CloudGenDeviceSimulator.Broker.Helpers
         {
             services.AddScoped<IEventStoreServices, EventStoreServices>();
             services.AddScoped<IThermometerServices, ThermometerServices>();
+            services.AddScoped<IDeviceServices, DeviceServices>();
             services.AddScoped<IPublish, Publish>();
             
             return services;
