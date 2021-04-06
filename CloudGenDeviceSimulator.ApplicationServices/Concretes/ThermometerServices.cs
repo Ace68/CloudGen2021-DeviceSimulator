@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using CloudGenDeviceSimulator.ApplicationServices.Abstracts;
 using CloudGenDeviceSimulator.Messages.Events;
 using CloudGenDeviceSimulator.ReadModel.Abstracts;
@@ -14,7 +13,6 @@ namespace CloudGenDeviceSimulator.ApplicationServices.Concretes
     public sealed class ThermometerServices : BaseServices, IThermometerServices
     {
         private readonly AccountInfo _who;
-        private readonly Random _random = new Random();
         
         public ThermometerServices(IPersister persister, ILoggerFactory loggerFactory)
             : base(persister, loggerFactory)
@@ -39,13 +37,20 @@ namespace CloudGenDeviceSimulator.ApplicationServices.Concretes
 
         public IEnumerable<ThermometerValuesUpdated> MapToThermometerValuesUpdated(IEnumerable<Temperature> temperature)
         {
-            return (from t in temperature
-                let reference = DateTime.UtcNow.AddMilliseconds(this._random.Next(1,50))
-                select new ThermometerValuesUpdated(new DeviceId(Guid.NewGuid()),
+            var thermometerValues = new List<ThermometerValuesUpdated>();
+            var reference = DateTime.UtcNow;
+            foreach (var t in temperature)
+            {
+                thermometerValues.Add(new ThermometerValuesUpdated(new DeviceId(Guid.NewGuid()),
                     new EventId(
                         $"{reference.Year:0000}{reference.Month:00}{reference.Day:00}{reference.Hour:00}{reference.Minute:00}{reference.Second:00}{reference.Millisecond:000}"),
                     new DeviceName("GlobalAzureThermometer"), t, new UnitOfMeasurement("F"),
-                    new CommunicationDate(DateTime.UtcNow), this._who, new When(DateTime.UtcNow))).ToList();
+                    new CommunicationDate(DateTime.UtcNow), this._who, new When(DateTime.UtcNow)));
+
+                reference = reference.AddMilliseconds(10);
+            }
+
+            return thermometerValues;
         }
     }
 }
