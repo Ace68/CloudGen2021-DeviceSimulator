@@ -191,6 +191,9 @@
       "CloudGenDeviceSimulator.Shared/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "FourSolid.Athena": "3.2.0"
+        },
         "compile": {
           "bin/placeholder/CloudGenDeviceSimulator.Shared.dll": {}
         },

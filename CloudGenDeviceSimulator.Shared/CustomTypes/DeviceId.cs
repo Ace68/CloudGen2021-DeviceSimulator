@@ -1,10 +1,11 @@
-﻿using CloudGenDeviceSimulator.Shared.Abstracts;
+﻿using System;
+using FourSolid.Athena.Core;
 
 namespace CloudGenDeviceSimulator.Shared.CustomTypes
 {
-    public sealed class DeviceId : CustomTypeString<DeviceId>
+    public sealed class DeviceId : DomainId
     {
-        public DeviceId(string value) : base(value)
+        public DeviceId(Guid value) : base(value)
         {
         }
     }

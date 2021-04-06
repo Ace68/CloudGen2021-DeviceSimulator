@@ -9,11 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloudGenDeviceSimulator", "
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "30 Shared", "30 Shared", "{719B598B-370A-4A60-9A63-95C8A7BC89DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudGenDeviceSimulator.Shared", "CloudGenDeviceSimulator.Shared\CloudGenDeviceSimulator.Shared.csproj", "{A836EDD7-62AE-42EB-BA7D-25E8B8D07904}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloudGenDeviceSimulator.Shared", "CloudGenDeviceSimulator.Shared\CloudGenDeviceSimulator.Shared.csproj", "{A836EDD7-62AE-42EB-BA7D-25E8B8D07904}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "50 ApplicationServices", "50 ApplicationServices", "{2E9E556B-C13D-4941-8034-2E7411441AB3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudGenDeviceSimulator.ApplicationServices", "CloudGenDeviceSimulator.ApplicationServices\CloudGenDeviceSimulator.ApplicationServices.csproj", "{B58A06FB-AA90-4FE1-9D54-DAC188AA1006}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloudGenDeviceSimulator.ApplicationServices", "CloudGenDeviceSimulator.ApplicationServices\CloudGenDeviceSimulator.ApplicationServices.csproj", "{B58A06FB-AA90-4FE1-9D54-DAC188AA1006}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "40 ReadModel", "40 ReadModel", "{1566B372-85B1-4A4E-BA53-C88621403D90}"
 EndProject
@@ -23,11 +23,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "20 Infrastructures", "20 In
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MongoDb", "MongoDb", "{4E5B70C6-D776-4423-B924-214AAC5557F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudGenDeviceSimulator.ReadModel.MongoDb", "CloudGenDeviceSimulator.ReadModel.MongoDb\CloudGenDeviceSimulator.ReadModel.MongoDb.csproj", "{F7195651-5599-45CB-82CE-CC4371449704}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloudGenDeviceSimulator.ReadModel.MongoDb", "CloudGenDeviceSimulator.ReadModel.MongoDb\CloudGenDeviceSimulator.ReadModel.MongoDb.csproj", "{F7195651-5599-45CB-82CE-CC4371449704}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Messages", "Messages", "{4470E5E7-8BE6-424B-8D34-D2406F6EE4F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudGenDeviceSimulator.Messages", "CloudGenDeviceSimulator.Messages\CloudGenDeviceSimulator.Messages.csproj", "{1C5C1F15-8190-4678-8D37-81BA6C3EF074}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloudGenDeviceSimulator.Messages", "CloudGenDeviceSimulator.Messages\CloudGenDeviceSimulator.Messages.csproj", "{1C5C1F15-8190-4678-8D37-81BA6C3EF074}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Azure", "Azure", "{2A13152A-587A-4443-BED5-BD900704D718}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudGenDeviceSimulator.Broker", "CloudGenDeviceSimulator.Broker\CloudGenDeviceSimulator.Broker.csproj", "{916450FD-7ADF-4BD5-B412-8BD4BC31C45A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +63,10 @@ Global
 		{1C5C1F15-8190-4678-8D37-81BA6C3EF074}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C5C1F15-8190-4678-8D37-81BA6C3EF074}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C5C1F15-8190-4678-8D37-81BA6C3EF074}.Release|Any CPU.Build.0 = Release|Any CPU
+		{916450FD-7ADF-4BD5-B412-8BD4BC31C45A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{916450FD-7ADF-4BD5-B412-8BD4BC31C45A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{916450FD-7ADF-4BD5-B412-8BD4BC31C45A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{916450FD-7ADF-4BD5-B412-8BD4BC31C45A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -72,6 +80,8 @@ Global
 		{F7195651-5599-45CB-82CE-CC4371449704} = {4E5B70C6-D776-4423-B924-214AAC5557F6}
 		{4470E5E7-8BE6-424B-8D34-D2406F6EE4F7} = {9561872A-694A-4449-B55B-60F47275EE27}
 		{1C5C1F15-8190-4678-8D37-81BA6C3EF074} = {4470E5E7-8BE6-424B-8D34-D2406F6EE4F7}
+		{2A13152A-587A-4443-BED5-BD900704D718} = {9561872A-694A-4449-B55B-60F47275EE27}
+		{916450FD-7ADF-4BD5-B412-8BD4BC31C45A} = {2A13152A-587A-4443-BED5-BD900704D718}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DC3A41CD-DCC5-47A8-995E-D98870F079C6}

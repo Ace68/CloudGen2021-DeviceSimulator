@@ -1,6 +1,8 @@
 ﻿using System.IO;
 using CloudGenDeviceSimulator.ApplicationServices.Abstracts;
 using CloudGenDeviceSimulator.ApplicationServices.Concretes;
+using CloudGenDeviceSimulator.Broker.Azure;
+using CloudGenDeviceSimulator.Broker.Helpers;
 using CloudGenDeviceSimulator.ReadModel.Abstracts;
 using CloudGenDeviceSimulator.ReadModel.MongoDb;
 using CloudGenDeviceSimulator.Shared.Abstracts;
@@ -45,8 +47,8 @@ namespace CloudGenDeviceSimulator
             services.AddScoped<IStartup, Startup>();
             services.AddLogging();
 
-            services.AddScoped<IEventStoreServices, EventStoreServices>();
-            services.AddScoped<IThermometerServices, ThermometerServices>();
+            services.AddApplicationServices();
+            services.AddDeviceMessagesProcessor(_configuration["CloudGen:IoTHubParameters:PrimaryConnectionString"]);
 
             var mongoDbParameters = new MongoDbParameters();
             _configuration.GetSection("CloudGen:MongoDbParameters").Bind(mongoDbParameters);

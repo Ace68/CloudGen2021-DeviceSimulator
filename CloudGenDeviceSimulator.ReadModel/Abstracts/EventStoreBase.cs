@@ -36,6 +36,7 @@ namespace CloudGenDeviceSimulator.ReadModel.Abstracts
         {
             return new ThermometerEventStoreJson
             {
+                EventId = this.Id,
                 MessageId = this.Id,
                 StreamData = this.StreamData,
                 StreamWhen = this.StreamWhen,

@@ -1,8 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "feqJK+NPJe/vPC/gBZ3nLwWHnV3TvLaDSXkX+mkG/bbNCSZkjDwaDiWZuj7TEmHpikes0JghQFsakwAKDMBaMA==",
+  "dgSpecHash": "OAR+hpMDOpyFvgFrIQG10eJcQEAnC+Wb0r4P9Uv5rbngmxiEqUi1QWBOnDFLP/7aLa6abbjHHZ+SAQjTrU6tNw==",
   "success": true,
   "projectFilePath": "e:\\Sviluppo\\GlobalAzure2021\\CloudGen2021-DeviceSimulator\\CloudGenDeviceSimulator.ReadModel\\CloudGenDeviceSimulator.ReadModel.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Alberto\\.nuget\\packages\\foursolid.athena\\3.2.0\\foursolid.athena.3.2.0.nupkg.sha512",
+    "C:\\Users\\Alberto\\.nuget\\packages\\foursolid.common\\1.1.0\\foursolid.common.1.1.0.nupkg.sha512",
+    "C:\\Users\\Alberto\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.1\\microsoft.extensions.dependencyinjection.5.0.1.nupkg.sha512",
+    "C:\\Users\\Alberto\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\Alberto\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

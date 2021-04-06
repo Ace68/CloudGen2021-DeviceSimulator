@@ -15,7 +15,58 @@
           "CloudGenDeviceSimulator.ReadModel.dll": {}
         }
       },
+      "FourSolid.Athena/3.2.0": {
+        "dependencies": {
+          "FourSolid.Common": "1.1.0",
+          "Microsoft.Extensions.DependencyInjection": "5.0.1",
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "lib/netstandard2.1/FourSolid.Athena.dll": {
+            "assemblyVersion": "3.2.0.0",
+            "fileVersion": "3.2.0.0"
+          }
+        }
+      },
+      "FourSolid.Common/1.1.0": {
+        "runtime": {
+          "lib/netstandard2.0/FourSolid.Common.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.0"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection/5.0.1": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll": {
+            "assemblyVersion": "5.0.0.1",
+            "fileVersion": "5.0.120.57516"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/5.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.3.23909"
+          }
+        }
+      },
       "CloudGenDeviceSimulator.Shared/1.0.0": {
+        "dependencies": {
+          "FourSolid.Athena": "3.2.0"
+        },
         "runtime": {
           "CloudGenDeviceSimulator.Shared.dll": {}
         }
@@ -27,6 +78,41 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "FourSolid.Athena/3.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IGoXa1yvlcpM+mLjva12uxfaoFt3e1beVd8LWULchpnNfO0gDqW0QHbHHMczhXB9A8Fx8Qe0CIcIWC2LBRj13w==",
+      "path": "foursolid.athena/3.2.0",
+      "hashPath": "foursolid.athena.3.2.0.nupkg.sha512"
+    },
+    "FourSolid.Common/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-U8Ks6wToOEoGhLEHXHlPBoPMZwyYrho2Lmy77JuQsYIPgTAXfT3t8q8lhc0G5ZBQOMNrZUo2XGcv+D73cKcucQ==",
+      "path": "foursolid.common/1.1.0",
+      "hashPath": "foursolid.common.1.1.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection/5.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-//mDNrYeiJ0eh/awFhDFJQzkRVra/njU5Y4fyK7X29g5HScrzbUkKOKlyTtygthcGFt4zNC8G5CFCjb/oizomA==",
+      "path": "microsoft.extensions.dependencyinjection/5.0.1",
+      "hashPath": "microsoft.extensions.dependencyinjection.5.0.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ORj7Zh81gC69TyvmcUm9tSzytcy8AVousi+IVRAI8nLieQjOFryRusSFh7+aLk16FN9pQNqJAiMd7BTKINK0kA==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/5.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "path": "newtonsoft.json/12.0.3",
+      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
     },
     "CloudGenDeviceSimulator.Shared/1.0.0": {
       "type": "project",

@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "h6DkF/y1ck89dR+Po0GxqU40t4a+qfOFxCKV6sBsyhEoVHt6ofUyUsjPkJh7upVKpWQzJnI2xUFNOeRUakS0dg==",
+  "dgSpecHash": "BhVM9iSsDv9HfwLl8KjMNyx/k/VWcOtFIwdnDLoELWxPGIJ+Uif+mw3ndkAceAvxa1yk2ENexaqzrBS4xo/fHA==",
   "success": true,
   "projectFilePath": "e:\\Sviluppo\\GlobalAzure2021\\CloudGen2021-DeviceSimulator\\CloudGenDeviceSimulator.ReadModel.MongoDb\\CloudGenDeviceSimulator.ReadModel.MongoDb.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alberto\\.nuget\\packages\\dnsclient\\1.3.1\\dnsclient.1.3.1.nupkg.sha512",
+    "C:\\Users\\Alberto\\.nuget\\packages\\foursolid.athena\\3.2.0\\foursolid.athena.3.2.0.nupkg.sha512",
+    "C:\\Users\\Alberto\\.nuget\\packages\\foursolid.common\\1.1.0\\foursolid.common.1.1.0.nupkg.sha512",
     "C:\\Users\\Alberto\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.1\\microsoft.extensions.dependencyinjection.5.0.1.nupkg.sha512",
     "C:\\Users\\Alberto\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\Alberto\\.nuget\\packages\\microsoft.extensions.logging\\5.0.0\\microsoft.extensions.logging.5.0.0.nupkg.sha512",
@@ -19,6 +21,7 @@
     "C:\\Users\\Alberto\\.nuget\\packages\\mongodb.driver.core\\2.11.6\\mongodb.driver.core.2.11.6.nupkg.sha512",
     "C:\\Users\\Alberto\\.nuget\\packages\\mongodb.libmongocrypt\\1.0.0\\mongodb.libmongocrypt.1.0.0.nupkg.sha512",
     "C:\\Users\\Alberto\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
+    "C:\\Users\\Alberto\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\Alberto\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\Alberto\\.nuget\\packages\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\Alberto\\.nuget\\packages\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",

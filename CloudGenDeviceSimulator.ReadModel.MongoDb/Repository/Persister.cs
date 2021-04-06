@@ -4,7 +4,7 @@ using System.Linq.Expressions;
 using System.Threading.Tasks;
 using CloudGenDeviceSimulator.ReadModel.Abstracts;
 using CloudGenDeviceSimulator.Shared.Services;
-using DnsClient.Internal;
+using Microsoft.Extensions.Logging;
 using MongoDB.Driver;
 using MongoDB.Driver.Linq;
 
@@ -18,7 +18,7 @@ namespace CloudGenDeviceSimulator.ReadModel.MongoDb.Repository
         public Persister(IMongoDatabase mongoDatabase, ILoggerFactory loggerFactory)
         {
             this._mongoDatabase = mongoDatabase;
-            this._logger = loggerFactory.CreateLogger(this.GetType().ToString());
+            this._logger = loggerFactory.CreateLogger(this.GetType());
         }
 
         public async Task<T> GetByIdAsync<T>(string id) where T : DtoBase
