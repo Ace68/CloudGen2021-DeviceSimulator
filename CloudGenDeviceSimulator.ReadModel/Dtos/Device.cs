@@ -18,7 +18,7 @@ namespace CloudGenDeviceSimulator.ReadModel.Dtos
         {
             return new DeviceJson
             {
-                DeviceId = this.DeviceId,
+                DeviceId = this.Id,
                 DeviceName = this.DeviceName,
                 SerialNumber = this.SerialNumber,
                 DeviceType = this.DeviceType,
