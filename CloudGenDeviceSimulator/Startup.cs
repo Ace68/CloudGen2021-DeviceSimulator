@@ -62,6 +62,7 @@ namespace CloudGenDeviceSimulator
 
         private async Task ReadAndPublishThermometerValuesAsync()
         {
+            Console.WriteLine("Start Thermometer Reading");
             var devices = await this._deviceServices.GetDevicesAsync();
 
             foreach (var device in devices)
@@ -73,6 +74,7 @@ namespace CloudGenDeviceSimulator
             }
             
             await this.PublishAsync<ThermometerEventStore>();
+            Console.WriteLine("Thermometer Reading Over");
         }
 
         private async Task AppendValuesIntoEventStoreAsync(IEnumerable<ThermometerValuesUpdated> thermometerValues)
