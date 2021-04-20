@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "BhVM9iSsDv9HfwLl8KjMNyx/k/VWcOtFIwdnDLoELWxPGIJ+Uif+mw3ndkAceAvxa1yk2ENexaqzrBS4xo/fHA==",
+  "dgSpecHash": "KsgakYiVLvd25WTIh2zxV+K2/Q+i/44G4LLSWn4ONtTPL/f836Yja8et/ug9oa9UJE0Fa21HonIY2ZAbzEOPOg==",
   "success": true,
   "projectFilePath": "e:\\Sviluppo\\GlobalAzure2021\\CloudGen2021-DeviceSimulator\\CloudGenDeviceSimulator.ReadModel.MongoDb\\CloudGenDeviceSimulator.ReadModel.MongoDb.csproj",
   "expectedPackageFiles": [
